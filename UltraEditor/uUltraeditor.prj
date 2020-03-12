@@ -1,0 +1,36 @@
+[Project ID]
+Signature=UE Proj: v.1
+Unicode=2
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Include Sub Directories=1
+Project TagfileW=.\CTags
+Project WordfileW=
+Project TpFileW=
+FilterW=
+Create Tagfile=0
+Project Tagfile=.\CTags
+Project Wordfile=
+Project TpFile=
+Filter=
+Project TagfileU=.+AFw-CTags
+[Group FilterW]
+./=*.s;*.c;*.h;
+.\="*.c;*.s;*.h'"
+..\=*.c;*.h;*.s;
+[Group Filter]
+.\=*.c;*.cpp;*.h;*.s;
+.\Libraries\=*.c;*.h;*.s;
+.\src\=*.c;*.h;*.s;
+..\=*.c;*.h;*.s;
+[Files]
+0=..\
+[FilesW]
+0=..\
+[Group FilterU]
+./=+ACo-.s+ADsAKg-.c+ADsAKg-.h+ADs-
+.+AFw-="+ACo-.c+ADsAKg-.s+ADsAKg-.h'"
+..+AFw-=+ACo-.c+ADsAKg-.h+ADsAKg-.s+ADs-
+[FilesU]
+0=..+AFw-
